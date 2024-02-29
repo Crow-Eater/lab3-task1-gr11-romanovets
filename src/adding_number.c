@@ -10,8 +10,8 @@
 #include <stdio.h>
 
 char* f(char* line){
-    setlocale(LC_ALL, "RU-ru");
     char *str = malloc(strlen(line));
+    memset(str, 0, sizeof str);
     char *str1 = malloc(strlen(line));
     for(int i = 0; i < strlen(line); i++) {
       sprintf(str1, "%c%d", line[i], (int)(line[i]));

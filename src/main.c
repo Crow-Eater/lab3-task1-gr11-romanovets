@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "adding_number.h"
 
-void main (void)
+void main (int argc, char *argv[])
 {
-  printf("%s", f("hello"));
+  printf("%s", f(argv[1]));
 }
