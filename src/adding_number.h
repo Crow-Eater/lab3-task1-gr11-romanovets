@@ -2,7 +2,8 @@
 //created by alexey romanovets
 //
 
-#ifndef
+#ifndef H_ADDING_NUMBER
+#define H_ADDING_NUMBER
 
 // This functions are used in main.c client file. Inplementation is in 
 // adding_number.c server file
@@ -16,6 +17,6 @@
 
 #include "stddef.h"
 
-char* add_number(char* line);
+char* f(char* line);
 
 #endif

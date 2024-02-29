@@ -1,11 +1,9 @@
-/* hello.c */
+
+/* main.c */
 #include <stdio.h>
-#include <string.h>
+#include "adding_number.h"
 
 void main (void)
 {
-	char str[] = "test";
-  for(int i = 0; i < strlen(str); i++) {
-    printf("%c%d", str[i], (int)str[i]);
-  }
+  printf("%s", f("hello"));
 }
