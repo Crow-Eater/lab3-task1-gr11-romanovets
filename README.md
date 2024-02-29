@@ -3,7 +3,7 @@
 It is public repository for third lab of TP course
 # Usage
 
-Please, edit README and add some details, as instance **Alexey Romanovets, group 11**.
+~~Please, edit README and add some details, as instance~~ **Alexey Romanovets, group 11**.
 
 # Building
 
